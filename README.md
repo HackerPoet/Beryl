@@ -3,7 +3,7 @@ Beryl is a polyhedron solver designed to find embeddings of regular maps.
 But it can also be used to find polyhedral embeddings from any list of triangles or at least attempt to minimize the intersections.
 
 For a more detailed explanation about this topic, check out:
-* [YouTube Video](todo)
+* [YouTube Video](https://youtu.be/zVRNcRFaZ94)
 * [Research Paper](https://www.mdpi.com/2073-8994/17/4/622)
 * [Interactive Viewer](http://codeparade.net/embeddings/)
 
