@@ -1,0 +1,37 @@
+.{
+    .name = .Beryl,
+
+    .version = "0.0.0",
+
+    .fingerprint = 0x565a8f7bc37099d, // Changing this has security and trust implications.
+
+    .minimum_zig_version = "0.14.0",
+
+    .dependencies = .{
+        .Eigen = .{
+            .url = "https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz",
+            .hash = "N-V-__8AABPI6wAbBLaww8cKO-HchZ0ft-BxUOEOyQtTSccD",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "cmdLine.cpp",
+        "cmdLine.h",
+        "globals.cpp",
+        "globals.h",
+        "LICENSE",
+        "main.cpp",
+        "permutation.cpp",
+        "permutation.h",
+        "plane.h",
+        "README.md",
+        "solver.cpp",
+        "solver.h",
+        "symmetry.cpp",
+        "symmetry.h",
+        "types.h",
+        "util.cpp",
+        "util.h",
+    },
+}
