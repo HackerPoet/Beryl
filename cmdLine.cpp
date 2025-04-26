@@ -1,6 +1,7 @@
 #include "cmdLine.h"
 #include <iomanip>
 #include <sstream>
+#include <algorithm>
 
 void CmdLine::addArgument(const std::vector<std::string>& flags, const std::string& help, Value value) {
   arguments.emplace_back(flags, help, value);
